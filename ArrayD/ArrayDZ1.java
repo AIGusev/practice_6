@@ -1,0 +1,16 @@
+package practice_6.ArrayD;
+
+import java.util.ArrayDeque;
+
+public class ArrayDZ1 {
+    static void main(String[] args) {
+        ArrayDeque<Integer> arrayDeque = new ArrayDeque<>();
+
+        arrayDeque.add(1);
+        arrayDeque.add(2);
+        arrayDeque.add(3);
+        arrayDeque.add(4);
+        arrayDeque.add(5);
+        System.out.println(arrayDeque);
+    }
+}
