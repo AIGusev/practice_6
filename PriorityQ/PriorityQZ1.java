@@ -19,8 +19,12 @@ public class PriorityQZ1 {
         priorityQueue.offer(1);
         priorityQueue.offer(7);
         priorityQueue.offer(4);
-        System.out.println(priorityQueue);
+
+        while (!priorityQueue.isEmpty())
+            System.out.println(priorityQueue.poll());
+
         //Тут тоже странный порядок
 
     }
 }
+
