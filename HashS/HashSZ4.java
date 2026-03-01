@@ -12,9 +12,9 @@ public class HashSZ4 {
         hashSet.add("Дмитрий");
 
 
-        String myName = "Артем";
+        String myName = "Таня"; // Выведет: Такого имени нет
 
-        if (hashSet.contains("Татьяна")) {
+        if (hashSet.contains(myName)) {
             System.out.println("Такое имя есть");
         } else {
             System.out.println("Такого имени нет");
