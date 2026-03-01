@@ -1,10 +1,9 @@
 package practice_6.HashM;
 
 import java.util.HashMap;
+import java.util.Map;
 
-
-// Не смог решить!
-/*public class HashMZ3 {
+public class HashMZ3 {
     public static void main(String[] args) {
         HashMap<String, Integer> hashMap = new HashMap<>();
 
@@ -14,11 +13,10 @@ import java.util.HashMap;
         hashMap.put("Anton", 19);
         hashMap.put("Oleg", 40);
 
-        int old = 18;
-
-
-        if (hashMap.values() < old) {
-            System.out.println(hashMap.values());
+        for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+            if (entry.getValue() < 18) {
+                System.out.println(entry.getKey());
+            }
         }
     }
-}*/
+}
